@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
         cout << "PRESS 'Q' for Exit \n";
         cin >> isExit;   
 
-    }while(isExit != "q" || isExit != "Q"); 
+    }while(isExit != "q" && isExit != "Q"); 
     
 
     return 0;
