@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
         cout << "PRESS 'y' for continue \n";
         cin >> isExit;   
 
-    }while(isExit == "y" || isExit == "Y");
+    }while(isExit == "y" && isExit == "Y");
 
     return 0;
 }
